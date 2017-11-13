@@ -3,11 +3,13 @@ import java.util.HashMap;
 //import java.util.Scanner;
 
 /**
- * @author TODO: please add student ID and name here
+ * @author TODO:B0544121 ·¨¾å³ì
  * Try to write some comments for your codes (methods, 10 points)
  */
 public class HW3 {
+
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		//Scanner sc = new Scanner(System.in);
 		//System.out.println("input N(deck of cards):");
 		//String testn= sc.nextLine(); 
