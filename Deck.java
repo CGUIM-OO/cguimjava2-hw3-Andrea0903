@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Deck 
 {	
-			public ArrayList<Card> usedCard;
+			public ArrayList<Card> usedCard= new ArrayList<Card>;
 			public int nUsed;
 	        int ndeck;
 			private ArrayList<Card> cards;
