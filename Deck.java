@@ -41,6 +41,7 @@ public class Deck
 						 }
 					 }
 				 }
+				shuffle();
 			}	
 			public void printDeck()
 			{
@@ -65,7 +66,7 @@ public class Deck
 			    	int a = rnd.nextInt(cards.size());//get random position "a". 
 			    	cards.get(a);
 		    		Card temp=cards.get(a);//put the card of position "a" in temp.
-		    		cards.remove(0);//remove arraycards position.
+		    		cards.remove(cards.get(a));//remove arraycards position.
 		    		cards.add(temp);//put what card in the temp into array cards. 
 		    	}
 		    	nUsed=0;
